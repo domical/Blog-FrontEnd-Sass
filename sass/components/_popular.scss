@@ -1,0 +1,36 @@
+.popular {
+    &__container {
+      display: flex;
+      max-width: 60%;
+      gap: 30px;
+      margin-bottom: 50px;
+    }
+  }
+  
+  .post {
+    &--popular {
+      flex-direction: column;
+      gap: 5px;
+      height: 390px;
+    }
+  
+    &__img {
+      &--popular {
+        width: 298px;
+        height: 200px;
+      }
+    }
+  
+    &-date {
+      &-popular {
+        font-size: 16px;
+      }
+    }
+  
+    &__title {
+      &--popular {
+        margin-bottom: 35px;
+        font-size: 20px;
+      }
+    }
+  }

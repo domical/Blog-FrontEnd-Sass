@@ -1,0 +1,18 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    height: 145px;
+    margin: 0 8%;
+  
+    &__text {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 30px;
+    }
+  }
+  .footer {
+    height: 130px;
+    display: flex;
+    align-items: center;
+    margin: auto 6%;
+  }

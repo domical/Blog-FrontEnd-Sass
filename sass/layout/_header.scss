@@ -1,0 +1,10 @@
+.header {
+    margin: auto 6%;
+    margin-top: 34px;
+    margin-bottom: 65px;
+  
+    &__container {
+      display: flex;
+      gap: 56px;
+    }
+  }

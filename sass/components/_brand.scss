@@ -1,0 +1,45 @@
+.brand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 90px;
+    border-radius: 10px;
+    padding: 10px 18px 10px 10px;
+  
+    &__logo {
+      width: 85px;
+      height: 74px;
+    }
+  
+    &__title {
+      color: #FFFFFF;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 48px;
+    }
+  
+    &--html {
+      background-color: #E93E30;
+    }
+  
+    &--js {
+      background-color: #F7E018;
+    }
+  
+    &--css {
+      background-color: #299ED5;
+    }
+  
+    &--react {
+      background-color: #292C33;
+    }
+  
+    &--vue {
+      background-color: #67C770;
+    }
+  
+    &--bootstrap {
+      background-color: #563D7C;
+    }
+  }
