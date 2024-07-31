@@ -27,3 +27,31 @@
       line-height: 24px;
     }
   }
+   
+  .post {
+   .post--popular {
+      flex-direction: column;
+      gap: 5px;
+      height: 390px;
+    }
+  
+  .post__img {
+  .post--popular {
+        width: 298px;
+        height: 200px;
+      }
+    }
+  
+  .post-date {
+  .post-popular {
+        font-size: 16px;
+      }
+    }
+  
+  .post__title {
+  .post--popular {
+        margin-bottom: 35px;
+        font-size: 20px;
+      }
+    }
+  }

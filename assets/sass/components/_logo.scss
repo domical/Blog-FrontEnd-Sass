@@ -2,44 +2,44 @@
     display: flex;
     align-items: center;
     gap: 10px;
-  
-    &__img {
+}
+.logo__img {
       width: 40px;
       height: 40px;
       border-radius: 50%;
   
-      &--ad1 {
+.logo--ad1 {
         width: 55px;
         height: 55px;
         border-radius: 10px;
       }
   
-      &--main-post {
+.logo--main-post {
         width: 60px;
         height: 60px;
       }
     }
   
-    &__title {
+.logo__title {
       font-size: 16px;
       font-weight: 500;
   
-      &--ad1 {
+.logo--ad1 {
         font-size: 24px;
         font-weight: 700;
         line-height: 36px;
       }
   
-      &--main-post {
+.logo--main-post {
         display: inline;
         font-size: 24px;
         font-weight: 500;
       }
     }
   
-    &--ad1 {
+.logo--ad1 {
       display: flex;
       align-items: center;
       gap: 21px;
     }
-  }
+  

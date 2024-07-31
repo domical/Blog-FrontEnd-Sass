@@ -1,0 +1,5 @@
+@mixin brand-color($name, $color) {
+    .brand--#{$name} {
+        background-color: $color;
+    }
+}

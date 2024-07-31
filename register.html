@@ -5,22 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro Blog Front End</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 
 <body>
-    <header class="blogbar">
-        <img class="blogbar__img" src="./assets/img/logos/adl.png" alt="Desafio-logo">
-        <h3 class="blogbar__title">Blog FrontEnd</h3>
-    </header>
+    <nav class="nav">
+        <a class="logo__ad1" href="./index.html">
+            <img class="logo__img--ad1" src="./assets/img/logos/adl.png" alt="Logo Desafío Latam">
+            <h1 class="logo__title--ad1">Blog FrontEnd</h1>
+        </a>
+    </nav>
     <hr>
-    <section class="register">
-        <form class="register__form">
+    <main class="main--form">
+        <form class="form">
+            <h2 class="form__title">Registrate ¡Es Gratis!</h2>
+            <section class="form__container"></section>
+            <label for="name" class="form__label">Nombre</label>
+            <input type="text" class="form__input" id="name" placeholder="Nombre">
+            <label for="email" class="form__label">Email</label>
+            <input type="email" class="form__input" id="email" placeholder="Email">
+            <label for="password" class="form__label">Contraseña</label>
+            <input type="password" class="form__input" id="password" placeholder="******">
+            <label for="password" class="form__label">Confirmar Contraseña</label>
+            <input type="password" class="form__input" id="password" placeholder="******">
+            <button class="form__submit">Crea tu cuenta</button>
 
         </form>
         <button class="register__submit"></button>
         <button class="register__google"></button>
         <h5 class="register__footer">¿Ya tienes una cuenta? <a class="register__footer--link">Inicia Sesión</a></h5>
-    </section>
+    </main>
 </body>
 
 </html>
